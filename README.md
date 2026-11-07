@@ -1,109 +1,126 @@
-In this project, let's build a **Meme Generator** app by applying the concepts we have learned till now.
+# 🎭 Meme Generator
 
-### Refer to the image below:
+A simple and responsive **Meme Generator Web Application** built using React.js and Styled Components. This application allows users to create personalized memes by adding custom top and bottom text to an image and adjusting the text font size.
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/meme-generator-output.gif" alt="meme-generator" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+## 🚀 Live Demo
 
-### Design Files
+https://manir042.ccbp.tech
 
-<details>
-<summary>Click to view</summary>
+## 📸 Features
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/meme-generator-sm-output-v0.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/meme-generator-lg-output-v0.png)
+- **Custom Image URL:** Use any publicly accessible image URL as the meme background.
+- **Top Text:** Add custom text at the top of the meme.
+- **Bottom Text:** Add custom text at the bottom of the meme.
+- **Font Size Customization:** Select different font sizes ranging from 8px to 32px.
+- **Instant Meme Generation:** Generate a customized meme by clicking the Generate button.
+- **Responsive Design:** Works across mobile, tablet, and desktop devices.
+- **Dynamic Preview:** View your customized meme with the selected image and text.
 
-</details>
+## 🛠️ Technologies Used
 
-### Set Up Instructions
+| Technology | Purpose |
+|---|---|
+| React.js | Building the user interface |
+| JavaScript (ES6+) | Application logic |
+| Styled Components | Component-based styling |
+| HTML5 | Application structure |
+| CSS3 | Responsive styling |
 
-<details>
-<summary>Click to view</summary>
+## 🧠 React Concepts Implemented
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+- Class Components
+- State Management
+- Event Handling
+- Controlled Components
+- Conditional Rendering
+- Dynamic Styling
+- Array Mapping
+- Component Reusability
 
-### Completion Instructions
+## 📂 Project Structure
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+```text
+meme-generator/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   └── MemeGenerator/
+│   │       ├── index.js
+│   │       └── styledComponents.js
+│   │
+│   ├── App.js
+│   └── index.js
+│
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-The app must have the following functionalities
+*Note: Update the folder structure if your actual project differs.*
 
-- Initially, values in the inputs elements should be empty and the selected value in the select element should be the first item in the given fontSizesOptionsList
-- When non-empty values are provided for **Image Url**, **Top Text**, **Bottom Text**, and **Font Size** and the **Generate** button is clicked
-  - The Image URL that has been provided should be applied as a background-image for the generated meme
-  - The given Top and Bottom text values should be at the top and bottom of the generated meme
-  - The selected font size value should be applied for both top and bottom text of the generated meme
+## ⚙️ Installation and Setup
 
-</details>
+Follow these steps to run the project locally.
 
-<details>
+**1. Clone the repository**
 
-<summary>Implementation Files</summary>
-<br/>
+```bash
+git clone https://github.com/manisharma-jupudi/meme-generator.git
+```
 
-Use these files to complete the implementation:
+**2. Navigate to the project directory**
 
-- `src/App.js`
-- `src/components/MemeGenerator/index.js`
-- `src/components/MemeGenerator/styledComponents.js`
+```bash
+cd meme-generator
+```
 
-</details>
+**3. Install dependencies**
 
-### Important Note
+```bash
+npm install
+```
 
-<details>
-<summary>Click to view</summary>
+**4. Start the development server**
 
-<br/>
+```bash
+npm start
+```
 
-**The following instructions are required for the tests to pass**
+The application will run at:
 
-- The HTML container element for the generated meme should have `data-testid` attribute value as **meme**
-- When Styled Components are used, `data-testid` attribute should be used instead of `testid` attribute
+```text
+http://localhost:3000
+```
 
-</details>
+## 🎮 How to Use
 
-### Resources
+1. Enter a publicly accessible image URL.
+2. Enter your desired text in the Top Text field.
+3. Enter your desired text in the Bottom Text field.
+4. Select your preferred font size.
+5. Click the **Generate** button.
+6. View your customized meme.
 
-<details>
-<summary>Image URLs</summary>
+## 🎯 Learning Outcomes
 
-- [https://assets.ccbp.in/frontend/react-js/nature-img.png](https://assets.ccbp.in/frontend/react-js/nature-img.png)
+Through this project, I strengthened my practical understanding of React.js, particularly:
 
-</details>
+- Managing component state using React Class Components.
+- Handling user inputs through controlled components.
+- Updating the UI dynamically based on user interactions.
+- Applying conditional rendering to display generated content.
+- Implementing responsive layouts using CSS and Styled Components.
 
-<details>
-<summary>Colors</summary>
+## 👨‍💻 Author
 
-<br/>
+**Manisharma Jupudi**
 
-<div style="background-color: #35469c; width: 150px; padding: 10px; color: black">Hex: #35469c</div>
-<div style="background-color: #7e858e; width: 150px; padding: 10px; color: black">Hex: #7e858e</div>
-<div style="background-color: #5a7184; width: 150px; padding: 10px; color: black">Hex: #5a7184</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #d7dfe9; width: 150px; padding: 10px; color: black">Hex: #d7dfe9</div>
-<div style="background-color: #1e293b; width: 150px; padding: 10px; color: black">Hex: #1e293b</div>
-<div style="background-color: #0b69ff; width: 150px; padding: 10px; color: black">Hex: #0b69ff</div>
+- GitHub: [@manisharma-jupudi](https://github.com/manisharma-jupudi)
 
-</details>
+---
 
-<details>
-<summary>Font-families</summary>
+⭐ If you like this project, consider giving the repository a star!
 
-- Open Sans
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+**Built with ❤️ using React.js**
